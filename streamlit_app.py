@@ -15,7 +15,7 @@ API_URL = "http://localhost:8000"
 
 # Page configuration
 st.set_page_config(
-    page_title="Game Mental Health Analysis",
+    page_title="The Player\'s Paradigm",
     page_icon="🎮",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -157,7 +157,7 @@ def render_charts(charts):
                     st.bokeh_chart(chart_objs[i+j], use_container_width=True)
 
 # Main App
-st.markdown('<h1 class="main-header">Game Mental Health Analysis</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">The Player\'s Paradigm</h1>', unsafe_allow_html=True)
 
 # Sidebar
 st.sidebar.title("Settings")
